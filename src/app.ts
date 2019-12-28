@@ -14,4 +14,4 @@ app.get( '/', ( req, res ) => res.send( 'Copyright Alex Zhao 2019' ) );
 // eg localhost:3000/api/test gets handled by the /test route defined in routes.router
 app.use( '/api', routes.router );
 
-export { app }
+module.exports = app;
